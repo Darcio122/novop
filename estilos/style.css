@@ -18,7 +18,7 @@ main{
     max-width: 800px;
     padding: 0px;
     margin: auto;
-    margin-top: 63px;
+    padding-top: 63px;
     box-shadow: 3px 2px 8px 0px rgba(54, 53, 53, 0.315);
     border-radius: 10px;
     overflow: hidden;
