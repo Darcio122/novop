@@ -1,18 +1,19 @@
 @charset "utf-8";
 
 
-:root{
-    --cor0:#b8a999;
-    --COR1:#29BF12;
-    --COR2:#23AE9B;
-    --COR3:#03BBBB;
-    --COR4:#CEB87C;
+:root {
+    --cor0: #b8a999;
+    --COR1: #29BF12;
+    --COR2: #23AE9B;
+    --COR3: #03BBBB;
+    --COR4: #CEB87C;
 }
 
-body{
+body {
     background-color: var(--cor0);
 }
-main{
+
+main {
     background-color: rgb(255, 255, 255);
     min-width: 300px;
     max-width: 800px;
@@ -23,25 +24,27 @@ main{
     border-radius: 10px;
     overflow: hidden;
 }
-header{
+
+header {
     padding: 10px;
 
 }
 
-header>h1{
+header>h1 {
     text-indent: 30px;
     color: var(--COR2);
 
 }
-header>h2{
 
-   text-indent: 30px;
-     color: var(--COR1);
-    
+header>h2 {
+
+    text-indent: 30px;
+    color: var(--COR1);
+
 
 }
 
-.outa{
+.outa {
     background-color: var(--COR2);
     color: white;
     width: 409px;
@@ -50,13 +53,15 @@ header>h2{
     margin-top: 0px;
     border-radius: 0px 0px 0px 10px;
 }
-.outa>h2{
-margin-left: -19px;
+
+.outa>h2 {
+    margin-left: -19px;
 }
 
-article{
+article {
     background-color: var(--COR3);
-    width: 460px;
+    max-width: 800px;
+    min-width: 400px;
     margin-left: 74px;
     padding: 28px;
     padding-bottom: 0px;
@@ -64,9 +69,9 @@ article{
     height: 244px;
 }
 
-    
 
-h3{
+
+h3 {
     background-color: var(--COR1);
     color: white;
     padding: 9px;
@@ -75,40 +80,47 @@ h3{
     margin-left: -34px;
     margin-top: 10px;
     text-align: center;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 4px 10px rgb(56 58 58 / 36%);
 }
-.caixa{
+
+.caixa {
     columns: 200px 2;
     column-gap: 25px;
- 
+
 }
-.prim{
+
+.prim {
     padding: 37px;
     margin-top: -66px;
     text-align: justify;
     color: #555555;
 }
-h3:hover{
-    background-color:#178a05;
+
+h3:hover {
+    background-color: #178a05;
 }
-h3>a{
+
+h3>a {
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
 }
 
-strong{
+strong {
     font-size: 30px;
 }
-.basic{
+
+.basic {
     color: white;
     padding: 0px;
 }
-.papo{
-    width: 190px;
-    height: 171px;
-    margin: auto;
-    border-radius: 10px 10px ;
-}
 
+.papo {
+    max-width: 800px;
+    background-position: left;
+    min-width: 134px;
+    height: 122px;
+    margin: auto;
+    border-radius: 10px 10px
+}
