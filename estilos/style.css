@@ -57,12 +57,11 @@ margin-left: -19px;
 article{
     background-color: var(--COR3);
     width: 460px;
-    margin-left: 15px;
-    padding: 14px;
+    margin-left: 74px;
+    padding: 28px;
     padding-bottom: 0px;
     border-radius: 0px 0px 10px 0px;
     height: 244px;
-    
 }
 
     
@@ -104,9 +103,9 @@ strong{
 }
 .basic{
     color: white;
-    padding: 6px;
+    padding: 0px;
 }
-.papo>img{
+.papo{
     width: 190px;
     height: 171px;
     margin: auto;
